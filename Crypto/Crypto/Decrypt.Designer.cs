@@ -133,7 +133,7 @@
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(391, 12);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(195, 36);
+            this.button3.Size = new System.Drawing.Size(236, 49);
             this.button3.TabIndex = 9;
             this.button3.Text = "IMPORT FROM .TXT";
             this.button3.UseVisualStyleBackColor = false;
@@ -145,7 +145,7 @@
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Location = new System.Drawing.Point(692, 12);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(195, 36);
+            this.button4.Size = new System.Drawing.Size(242, 49);
             this.button4.TabIndex = 10;
             this.button4.Text = "EXPORT TO .TXT";
             this.button4.UseVisualStyleBackColor = false;

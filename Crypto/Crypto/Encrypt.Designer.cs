@@ -66,7 +66,6 @@
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -480,9 +479,9 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.textBox2.Location = new System.Drawing.Point(880, 592);
+            this.textBox2.Location = new System.Drawing.Point(357, 581);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(228, 38);
+            this.textBox2.Size = new System.Drawing.Size(751, 38);
             this.textBox2.TabIndex = 20;
             // 
             // button4
@@ -494,17 +493,6 @@
             this.button4.Text = "ENCRYPT";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(546, 591);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(309, 29);
-            this.label2.TabIndex = 23;
-            this.label2.Text = "OR TYPE A CODE HERE:";
             // 
             // label3
             // 
@@ -525,7 +513,6 @@
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1335, 642);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button3);
@@ -585,7 +572,6 @@
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
     }
 }

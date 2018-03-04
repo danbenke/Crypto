@@ -42,7 +42,7 @@ namespace Crypto
 
         private void adddecrypt(string c)
         {
-            DECRYPT.Text += c.ToString();
+            textBox2.Text += c;
         }
         private bool ischar(char c)//is c a-Z?
         {
@@ -635,7 +635,9 @@ namespace Crypto
                     return;
                 }
             }
-            foreach( char c in input)
+            label3.Visible = false;
+            textBox2.Text = "";
+            foreach ( char c in input)
             {
                 switch(c)
                 {
